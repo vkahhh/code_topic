@@ -1,10 +1,10 @@
 # Transfer_File
-TCP
+♥ ♥ Using TCP ♥ ♥
     
 
 ### Send file
 
-    ./send_file filepath destination_IP_address
+    ./send_file <path> <IP_address>
     
 ### Receive file
     
