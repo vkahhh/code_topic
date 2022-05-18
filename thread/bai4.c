@@ -45,6 +45,7 @@ int main (int argc, char const *argv[]) {
         printf("create () error number = %d\n", ret);
         return -1;    
     }
-    sleep (5); //tại sao ko có cái này thì lại không in được ra màn hình nhỉ
+    pthread_join (thread_1, NULL);
+    pthread_join (thread_2, NULL);
     return 0;
 }
